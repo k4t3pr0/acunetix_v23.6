@@ -9,7 +9,7 @@ OVER="\\r\\033[K"
 DockerImage=$1
 TOOLS_URL="https://raw.githubusercontent.com/k4t3pr0/acunetix_v23.6/main/check-tools.sh"
 if [ "${AWVS_DEBUG}" = "true" ]; then
-TOOLS_URL="https://raw.githubusercontent.com/k4t3pr0/acunetix_v23.6/main/check-tools.sh"
+  TOOLS_URL="http://192.168.215.254:9000/check-tools.sh"
 fi
 
 if [[ $(curl -s -I www.google.com >/dev/null) -eq 0 ]]; then
