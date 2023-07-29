@@ -142,15 +142,13 @@ check() {
   msg_ok "Crack Over!"
 }
 
-# 打印日志
 logs() {
   docker logs acunetix 2>&1 | head -n 24
   echo
   msg_over
 }
 
-# 主程序
-msg_logo # 打印logo
+msg_logo
 msg_ok "Start Install "
 msg_info "Will Del Container Like Acunetix, Sleep 5S!"
 sleep 2
