@@ -1,4 +1,4 @@
-# Acunetix_v23.6 by k4t3pr0
+# Acunetix_v23.x by k4t3pr0
 ## Acunetix Premium v23.6.230628115
 
 ### Installation
