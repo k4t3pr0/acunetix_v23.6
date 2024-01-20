@@ -36,7 +36,7 @@ typeApp() {
 
 msg_logo() {
   clear
-  echo -e "\n  \033[1;31mk4t3pr0\033[0m"
+  echo -e "\n  \033[1;31mCreated by k4t3pr0\033[0m"
   echo -e "  \033[1;32mhttps://github.com/k4t3pr0\033[0m"
 }
 
