@@ -7,8 +7,8 @@ COL_LIGHT_YELLOW='\033[1;33m'
 INFO="[${COL_LIGHT_YELLOW}~${COL_NC}]"
 OVER="\\r\\033[K"
 DockerImage=$1
-DOCKER_INSTALL_URL="https://raw.githubusercontent.com/k4t3pr0/acunetix_v23.6/main/check-tools.sh"
-TOOLS_URL="https://raw.githubusercontent.com/k4t3pr0/acunetix_v23.6/main/check-tools.sh"
+DOCKER_INSTALL_URL="https://raw.githubusercontent.com/k4t3pr0/acunetix-latest/main/docker_init.sh"
+TOOLS_URL="https://raw.githubusercontent.com/k4t3pr0/acunetix-latest/main/check-tools.sh"
 
 msg_info() {
   printf "${INFO}  %s ${COL_LIGHT_YELLOW}...${COL_NC}" "${1}" 1>&2
